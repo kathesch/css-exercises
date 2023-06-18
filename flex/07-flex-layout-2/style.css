@@ -27,3 +27,54 @@ body {
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
 }
+
+.header {
+  font-weight: 900;
+  font-size: 32px;
+  display: flex;
+  align-items: center;
+  padding-left: 16px
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.main {
+  display: flex;
+  flex: 1
+}
+
+.sidebar {
+  flex: 0 0 300px;
+  padding: 16px;
+}
+
+.sidebar a {
+  font-size: 24px;
+  color: white;
+  text-decoration: none;
+}
+
+.sidebar li {
+  list-style: none;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 32px;
+}
+
+.card {
+  flex: 0 0 150px;
+  padding: 32px;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
